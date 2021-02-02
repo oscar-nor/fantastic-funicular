@@ -1,0 +1,122 @@
+/*
+*{
+  border: thin solid black;
+}
+*/
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid #464545;
+  background-color: rgba(0, 128, 85, 0.452);
+  position: relative;
+}
+
+.name{
+  position: absolute;
+}
+
+.contact {
+
+  justify-content: center;
+  margin:0;
+  padding:0;
+  border:0;
+  position: relative;
+  text-align:center;
+  
+}
+.mail {
+  margin-bottom: 0;
+}
+.image{
+  margin-left:auto;
+  margin-right: 10px;
+}
+
+img {
+  padding: 4px;
+  object-fit:cover;
+  border-radius:50%;
+}
+.intro {
+  padding: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#hello{
+  text-align:center;
+  font-size: 19px;
+  font-weight: bold;
+  text-justify: distribute;
+  line-height: 1.5 ;
+}
+
+.title {
+  display: flex;
+  border-bottom: 2px solid #464545;
+}
+
+h3 {
+  display:flex;
+  margin-bottom: 4px;
+}
+
+.mid1 {
+  display:flex;
+  justify-content: space-around;
+  column-gap: 30px;
+  padding:10px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 18px;
+}
+#TA1 {
+  margin-bottom: 0;
+}
+
+#TA2 {
+  margin-top: 18px;
+}
+
+.mid2 {
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.mid3 {
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.foot {
+  display:flex;
+  background-color: #f5f5f5;
+  font-size: 15px;
+  border:0;
+}
+
+.bottom_text {
+  font-size: 13px;
+  border:0;
+}
